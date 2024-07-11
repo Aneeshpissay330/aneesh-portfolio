@@ -36,7 +36,7 @@ const Experience: React.FunctionComponent<ExperienceProps> = () => {
                                 </span>
                             </h6>
                             <p className="mb-4 text-neutral-400">{experience.description}</p>
-                            <div className="w-max">
+                            <div className="w-fit flex flex-row flex-wrap">
                                 {experience.technologies.map((tech: any, index: any) => (
                                     <span key={index} className="mr-2 mt-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-[#FFA500]">{tech}</span>
                                 ))}
