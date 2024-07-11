@@ -3,6 +3,8 @@ import { TbBrandMongodb } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { TbBrandReactNative } from "react-icons/tb";
+import { SiDotnet } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 
 type TechnologiesProps = {
 
@@ -28,7 +30,12 @@ const Technologies : React.FunctionComponent<TechnologiesProps> = () => {
             <div className="rounded-2xl border-4 border-neutral-400 p-4">
                 <TbBrandReactNative className="text-7xl" style={{ color: '#087ea4' }} />
             </div>
-            
+            <div className="rounded-2xl border-4 border-neutral-400 p-4">
+                <SiDotnet className="text-7xl" style={{ color: '#9780e5' }} />
+            </div>
+            <div className="rounded-2xl border-4 border-neutral-400 p-4">
+                <SiMysql className="text-7xl" style={{ color: '#2b5d80' }} />
+            </div>
         </div>
     </div>
   )

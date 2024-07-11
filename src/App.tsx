@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import Experience from './pages/Experience';
 import Hero from './pages/Hero';
 import Technologies from './pages/Technologies';
 
@@ -12,6 +13,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <Technologies />
+        <Experience />
       </div>
     </div>
   )
