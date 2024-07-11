@@ -1,0 +1,1 @@
+export const HERO_CONTENT = 'With 3 years expertise in MERN, React Native. I specialize in full-stack and mobile app development. I create responsive web solutions. My React Native skills craft seamless, cross-platform apps for Android and iOS, ensuring top-tier user experiences, reflecting my commitment to quality and innovation.'
