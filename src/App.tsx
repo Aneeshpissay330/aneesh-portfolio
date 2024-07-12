@@ -2,6 +2,7 @@ import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Hero from './pages/Hero';
+import Projects from './pages/Projects';
 import Technologies from './pages/Technologies';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <Technologies />
         <Experience />
+        <Projects />
         <Contact />
       </div>
     </div>

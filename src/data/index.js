@@ -31,3 +31,12 @@ export const EXPERIENCES = [
         technologies: ["React.js", "React Native"]
     }
 ]
+
+export const PROJECTS = [
+    {
+        title: "Todo-List",
+        description: "This is a simple to-do list application built with React and React Bootstrap. It offers a range of features designed to streamline task management. Users can easily add new tasks to their list, ensuring nothing gets forgotten. Each task can be marked as completed, helping users keep track of their progress. The application also allows for editing existing tasks, providing flexibility to update or correct task details as needed. Additionally, users can delete tasks from the list, maintaining an organized and clutter-free task list.",
+        technologies: ["React.js", "Redux"],
+        link: "https://todo-list-divf.onrender.com"
+    }
+]

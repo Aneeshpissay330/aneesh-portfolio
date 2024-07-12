@@ -1,6 +1,6 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandMongodb, TbBrandReactNative } from "react-icons/tb";
-import { SiExpress, SiDotnet, SiMysql } from "react-icons/si";
+import { SiExpress, SiDotnet, SiMysql, SiRedux } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { motion, Variants } from "framer-motion";
 
@@ -25,7 +25,6 @@ const iconVariants = (duration: number): Variants => ({
 
 const Technologies = () => {
     const durations = Array(7).fill(null).map(() => getRandomInt(1, 10));
-    console.log(durations);
     return (
         <div className="border-b border-neutral-800 pb-24">
             <motion.h1
@@ -45,7 +44,8 @@ const Technologies = () => {
                     { Icon: FaNodeJs, style: { color: '#3C873A' } },
                     { Icon: TbBrandReactNative, style: { color: '#087ea4' } },
                     { Icon: SiDotnet, style: { color: '#9780e5' } },
-                    { Icon: SiMysql, style: { color: '#2b5d80' } }
+                    { Icon: SiMysql, style: { color: '#2b5d80' } },
+                    { Icon: SiRedux, style: { color: '#764abc' } }
                 ].map((item, index) => (
                     <motion.div
                         key={index}
