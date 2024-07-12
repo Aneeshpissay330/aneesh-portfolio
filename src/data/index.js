@@ -1,4 +1,5 @@
 import calculator from '../assets/calculator.png';
+import todoList from '../assets/todo-list.png';
 
 export const HERO_CONTENT = 'With 3 years expertise in MERN, React Native. I specialize in full-stack and mobile app development. I create responsive web solutions. My React Native skills craft seamless, cross-platform apps for Android and iOS, ensuring top-tier user experiences, reflecting my commitment to quality and innovation.';
 
@@ -35,18 +36,18 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
-    // {
-    //     title: "Todo-List",
-    //     description: "This is a simple to-do list application built with React and React Bootstrap. It offers a range of features designed to streamline task management. Users can easily add new tasks to their list, ensuring nothing gets forgotten. Each task can be marked as completed, helping users keep track of their progress. The application also allows for editing existing tasks, providing flexibility to update or correct task details as needed. Additionally, users can delete tasks from the list, maintaining an organized and clutter-free task list.",
-    //     technologies: ["React.js", "Redux"],
-    //     link: "https://todo-list-divf.onrender.com",
-    //     image: calculator
-    // },
     {
         title: "Scientific Calculator",
         description: "This scientific calculator empowers you to conquer diverse scientific computations. It offers all the fundamental arithmetic operations (addition, subtraction, multiplication, and division) alongside advanced functions like trigonometry (sine, cosine, tangent, and their inverses), logarithms (common and natural), and exponentiation. The calculator even facilitates basic unit conversion between degrees and radians. Streamlining your workflow, it includes dedicated buttons for clearing the entire expression (AC) or deleting single digits (DEL).",
         technologies: ["React.js"],
         link: "https://calculator-zebv.onrender.com/",
         image: calculator
-    }
+    },
+    {
+        title: "Todo-List",
+        description: "This is a todo list application developed using React and React Bootstrap, enhanced with Redux for efficient local data management. Users can effortlessly add, edit, mark tasks as completed, and delete tasks from the list, making it a practical tool for managing daily tasks.",
+        technologies: ["React.js", "Redux"],
+        link: "https://todo-list-divf.onrender.com",
+        image: todoList
+    },
 ]
