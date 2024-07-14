@@ -1,6 +1,7 @@
 import calculator from '../assets/calculator.png';
 import todoList from '../assets/todo-list.png';
 import rockPaperScissors from '../assets/rock-paper-scissors.png';
+import ticTacToe from '../assets/tic-tac-toe.png';
 
 export const HERO_CONTENT = 'With 3 years expertise in MERN, React Native. I specialize in full-stack and mobile app development. I create responsive web solutions. My React Native skills craft seamless, cross-platform apps for Android and iOS, ensuring top-tier user experiences, reflecting my commitment to quality and innovation.';
 
@@ -58,4 +59,11 @@ export const PROJECTS = [
         link: "https://rock-paper-scissor-game-emc3.onrender.com",
         image: rockPaperScissors
     },
+    {
+        title: "Tic-Tac-Toe",
+        description: "This Tic-Tac-Toe game allows two players to compete on a 3x3 grid, strategically placing their marks (X or O). The game automatically detects wins and draws, visually indicating winning moves with drawn lines. Its responsive design and reset option make it a user-friendly choice for enjoying this classic game.",
+        technologies: ["React.js"],
+        link: "https://tic-tac-toe-tn1g.onrender.com",
+        image: ticTacToe
+    }
 ]
