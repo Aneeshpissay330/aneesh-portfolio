@@ -1,5 +1,6 @@
 import calculator from '../assets/calculator.png';
 import todoList from '../assets/todo-list.png';
+import rockPaperScissors from '../assets/rock-paper-scissors.png';
 
 export const HERO_CONTENT = 'With 3 years expertise in MERN, React Native. I specialize in full-stack and mobile app development. I create responsive web solutions. My React Native skills craft seamless, cross-platform apps for Android and iOS, ensuring top-tier user experiences, reflecting my commitment to quality and innovation.';
 
@@ -40,7 +41,7 @@ export const PROJECTS = [
         title: "Scientific Calculator",
         description: "This scientific calculator empowers you to conquer diverse scientific computations. It offers all the fundamental arithmetic operations (addition, subtraction, multiplication, and division) alongside advanced functions like trigonometry (sine, cosine, tangent, and their inverses), logarithms (common and natural), and exponentiation. The calculator even facilitates basic unit conversion between degrees and radians. Streamlining your workflow, it includes dedicated buttons for clearing the entire expression (AC) or deleting single digits (DEL).",
         technologies: ["React.js"],
-        link: "https://calculator-zebv.onrender.com/",
+        link: "https://calculator-zebv.onrender.com",
         image: calculator
     },
     {
@@ -49,5 +50,12 @@ export const PROJECTS = [
         technologies: ["React.js", "Redux"],
         link: "https://todo-list-divf.onrender.com",
         image: todoList
+    },
+    {
+        title: "Rock Paper Scissors",
+        description: "This Rock Paper Scissors game, built with React and Tailwind CSS, allows users to play against the computer, featuring score tracking and game reset options. The game provides a simple and engaging user interface where players can select rock, paper, or scissors and instantly see the computer's random choice. The game keeps track of the score, increasing it for wins and decreasing it for losses, with draws leaving the score unchanged. Additionally, players can reset the game for a new round without altering the score or reset the score to zero, making it a fun and interactive way to enjoy this classic game.",
+        technologies: ["React.js"],
+        link: "https://rock-paper-scissor-game-emc3.onrender.com",
+        image: rockPaperScissors
     },
 ]
