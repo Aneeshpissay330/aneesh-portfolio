@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+# Aneesh Pissay – Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and animated developer portfolio showcasing web and mobile projects built with modern technologies.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Framer Motion Animations**  
+  Smooth transitions and section-based animations for a dynamic user experience
 
-## Expanding the ESLint configuration
+- **Responsive Design**  
+  Fully responsive layout across desktop, tablet, and mobile
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Hero Section**  
+  Introduction with profile image, title, and CTA button
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **About Section**  
+  Developer-focused background with skills and goals
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Skills Grid**  
+  Logo-based skill cards with branded backgrounds and animations
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Projects Section**  
+  Image-backed project cards with tech stack, live demo, and source code links
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **Experience Timeline**  
+  Vertical timeline showing freelance and indie development history
+
+- **Contact Form**  
+  Styled form with animated fields and clear call to action
+
+- **Mobile Navigation Menu**  
+  Animated dropdown with responsive toggle
+
+- **Footer with Social Icons**  
+  GitHub and LinkedIn icons using brand visuals and hover animation
+
+## 🛠️ Tech Stack
+
+- **React** + **Tailwind CSS**
+- **Framer Motion** for all animations
+- SVG/PNG assets for icons and logos
+- Component-based layout (Header, Footer, Pages)
+
+---
+

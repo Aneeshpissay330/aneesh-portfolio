@@ -1,12 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background-color: #121212;
-  --text-color: #E5E5E5;
+  --background-color: #F1F9FE;       /* Very light blue background */
+  --text-color: #01579B;             /* Accent blue for readable text */
+  --primary-color: #0288D1;          /* For main actions/buttons/highlights */
+  --secondary-color: #81D4FA;        /* For hover states, less important buttons */
+  --accent-color: #01579B;           /* Deep blue for icons, borders, active links */
+  --button-text-color: #FFFFFF;      /* White text for buttons */
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   background-color: var(--background-color);
-  color: var(--text-color);
 }

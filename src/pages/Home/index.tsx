@@ -1,40 +1,45 @@
-import profilePhoto from '../../assets/images/profile-photo.jpg';
+import { motion } from "motion/react";
+import Button from "../../components/Button";
+import profilePhoto from "../../assets/images/profile-photo.jpg";
 
 const Home = () => {
   return (
-    <section className="px-6 md:px-16 py-8 flex flex-col md:flex-row items-center justify-between gap-10">
-      <div className="gap-5 flex flex-col items-center md:items-start text-center md:text-left">
-        <h1 className="text-3xl md:text-4xl flex flex-wrap gap-2 font-bold">
-          Hi, I'm <span className="text-[#7C3AED]">Aneesh Pissay</span>
-        </h1>
-        <p className="text-sm md:text-base font-medium">Full Stack Developer | Mobile App Developer</p>
-        <p className="max-w-lg text-sm md:text-base">
-          I’m a full stack developer and mobile app creator, building elegant, responsive applications using modern JavaScript frameworks with a strong focus on user experience and performance.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 sm:gap-5 items-center sm:items-start justify-center sm:justify-start">
-          <button className="w-max hover:scale-105 bg-[#7C3AED] hover:bg-transparent hover:border hover:border-[#7C3AED] hover:text-[#7C3AED] p-3 rounded-md cursor-pointer transition-all">
-            Download Resume
-          </button>
-          <button className="w-max hover:scale-105 bg-[#7C3AED] hover:bg-transparent hover:border hover:border-[#7C3AED] hover:text-[#7C3AED] p-3 rounded-md cursor-pointer transition-all">
-            Contact Me
-          </button>
-        </div>
-      </div>
+    <section className="bg-[#F1F9FE] w-full py-20 px-6 md:px-8">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between">
+        {/* Left: Text Content */}
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          animate={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="max-w-xl text-center md:text-left space-y-6"
+        >
+          <h1 className="font-bold text-4xl md:text-5xl text-[#01579B] leading-tight">
+            Hi, I’m Aneesh Pissay
+          </h1>
+          <h2 className="text-xl md:text-2xl text-[#01579B] font-medium">
+            Full-Stack Developer for Web & Mobile (React + React Native)
+          </h2>
+          <p className="text-[#01579B] text-base md:text-lg">
+            I build scalable and user-focused applications for both web and mobile platforms. My focus is on creating reliable, maintainable, and high-performance solutions that work seamlessly across devices.
+          </p>
+          <Button label="View Projects" variant="primary" />
+        </motion.div>
 
-      <div className="relative inline-block">
-        <img
-          src={profilePhoto}
-          width={250}
-          height={250}
-          className="rounded-full border-4 border-[#7C3AED]"
-        />
-        <div className="absolute bottom-0 right-0 bg-[#121212] rounded-full w-14 aspect-square flex items-center justify-center transition-transform duration-300 hover:scale-105">
-          <div className="bg-[#7C3AED] rounded-full w-10 aspect-square flex items-center justify-center">
-            <span className="material-symbols-outlined text-white">
-              code
-            </span>
-          </div>
-        </div>
+        {/* Right: Profile Image */}
+        <motion.div
+          initial={{ opacity: 0, x: 50 }}
+          animate={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-10 md:mt-0 md:ml-10 w-[250px] h-[250px] bg-[#81D4FA] rounded-xl flex items-center justify-center overflow-hidden"
+        >
+          <img
+            src={profilePhoto}
+            alt="Aneesh Pissay"
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
       </div>
     </section>
   );
